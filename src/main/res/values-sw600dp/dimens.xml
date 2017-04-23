@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fragmentTranslateLanguageTitle">28dp</dimen>
+    <dimen name="fragmentTranslateMainEditText">28dp</dimen>
+    <dimen name="fragmentTranslateTranslatedText">32dp</dimen>
+    <dimen name="fragmentTranslateIconSize">55dp</dimen>
+
+    <dimen name="itemFavoriteIcon">75dp</dimen>
+    <dimen name="itemText">24dp</dimen>
+</resources>

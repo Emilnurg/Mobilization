@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewFrom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Русский"
+                    android:textSize="@dimen/fragmentTranslateLanguageTitle"/>
+
+                <ImageView
+                    android:id="@+id/imageViewChangeLang"
+                    android:layout_width="@dimen/fragmentTranslateIconSize"
+                    android:layout_height="@dimen/fragmentTranslateIconSize"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/change_lang"/>
+
+                <TextView
+                    android:id="@+id/textViewTo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Английский"
+                    android:textSize="@dimen/fragmentTranslateLanguageTitle"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:hint="Введите сюда текст, который хотите перевести"
+                android:inputType="textCapSentences|textMultiLine"
+                android:lines="5"
+                android:maxLines="5"
+                android:textSize="@dimen/fragmentTranslateMainEditText"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewTranslate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/fragmentTranslateTranslatedText"
+                    tools:text="Тут будет перевод"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewClear"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/fragmentTranslateIconSize"
+                        android:adjustViewBounds="true"
+                        app:srcCompat="@drawable/clear"/>
+
+                    <ImageView
+                        android:id="@+id/imageViewCopy"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/fragmentTranslateIconSize"
+                        android:layout_marginTop="8dp"
+                        android:adjustViewBounds="true"
+                        app:srcCompat="@drawable/copy"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

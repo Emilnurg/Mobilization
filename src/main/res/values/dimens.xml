@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fragmentTranslateLanguageTitle">18dp</dimen>
+    <dimen name="fragmentTranslateMainEditText">18dp</dimen>
+    <dimen name="fragmentTranslateTranslatedText">24dp</dimen>
+    <dimen name="fragmentTranslateIconSize">40dp</dimen>
+
+    <dimen name="itemFavoriteIcon">50dp</dimen>
+    <dimen name="itemText">14dp</dimen>
+</resources>

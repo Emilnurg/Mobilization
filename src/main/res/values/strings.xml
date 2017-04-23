@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Translater</string>
+    <string name="copyToBuffer">Перевод скопирован в буфер обмена</string>
+    <string name="langsNotDownloads">Список языков не загружен.</string>
+    <string name="chooseYourLang">Выберите ваш язык</string>
+    <string name="chooseLangForTranslate">Выберите язык для перевода</string>
+    <string name="errorMessage">Произошла ошибка. Возможно, нет подключения к интернету</string>
+    <string name="error2Message">Произошла ошибка: список языков не загружен. Возможно нет доступа к интернету</string>
+    <string name="delete">Удалить</string>
+    <string name="deleteQuestion">Удалить запись?</string>
+    <string name="cancel">Отмена</string>
+</resources>
